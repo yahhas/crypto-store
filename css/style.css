@@ -1,0 +1,84 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-right: 670px;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 74px 0;
+}
+
+.main-title  {
+    margin: 60px auto;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about-pic {
+    width: 64px;
+    height: 64px;
+}
+
+.trusted {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.trusted-logo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+}
+
+.content {
+    margin: 50px;
+}
+
+input {
+    margin: 10px;
+}
+
+.btn-submit {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.required {
+    color: red;
+}
